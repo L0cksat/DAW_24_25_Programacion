@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+F:\Eclipse DAW\app\eclipse\SegundoTrimestre\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1304818545.index
+2397256721.index
