@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+F:\Eclipse DAW\app\eclipse\PrimerTrimestre\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+115052651.index
+1460227476.index
+2742239917.index
+3899633590.index
+1902575116.index
+2521928859.index
+680644792.index
+1304818545.index
+2011915645.index
+2268166643.index
+2934834107.index
+2218138149.index
+303846865.index
+1328871060.index
+22370865.index
+2397256721.index
+2310231577.index
+2078089961.index
+1865797976.index
+4106342514.index

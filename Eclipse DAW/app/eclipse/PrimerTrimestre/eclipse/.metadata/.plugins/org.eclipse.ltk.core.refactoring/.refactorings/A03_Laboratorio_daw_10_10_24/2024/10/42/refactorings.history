@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;A04_Alternativas/src/Algoritimos&apos;&#x0D;&#x0A;- Original project: &apos;A03_Laboratorio_daw_10_10_24&apos;&#x0D;&#x0A;- Destination element: &apos;A04_Alternativas/src/Algoritimos&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     algoritmos.Ejercicio04ComparacionDeDosNumeros.java&#x0D;&#x0A;     algoritmos.Ejercicio03AlternativasIf.java" description="Copy compilation units" destination="=A04_Alternativas/src&lt;Algoritimos" element1="/src&lt;algoritmos{Ejercicio04ComparacionDeDosNumeros.java" element2="/src&lt;algoritmos{Ejercicio03AlternativasIf.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1729373468507" units="2" version="1.0"/>
+</session>

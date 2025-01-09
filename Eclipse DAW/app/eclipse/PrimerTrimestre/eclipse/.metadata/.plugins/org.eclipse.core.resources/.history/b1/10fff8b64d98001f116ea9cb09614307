@@ -1,0 +1,13 @@
+package javabean;
+
+public class Empleado {
+	
+	private int idEmpleado;
+	private String nombre;
+	private String apellidos;
+	private double salarioMenusal;
+	private double complementos;
+	private char genero;
+	
+
+}

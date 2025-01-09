@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Algoritimos&apos; to &apos;algoritimos&apos;&#x0D;&#x0A;- Original project: &apos;A04_Alternativas&apos;&#x0D;&#x0A;- Original element: &apos;A04_Alternativas/src/Algoritimos&apos;&#x0D;&#x0A;- Renamed element: &apos;A04_Alternativas/src/algoritimos&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Algoritimos&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Algoritimos" name="algoritimos" qualified="false" references="true" stamp="1729933987179" textual="false" version="1.0"/>
+</session>

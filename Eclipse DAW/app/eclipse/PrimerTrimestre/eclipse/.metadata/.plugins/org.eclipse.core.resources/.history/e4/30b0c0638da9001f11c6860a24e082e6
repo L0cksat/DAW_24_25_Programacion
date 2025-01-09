@@ -1,0 +1,29 @@
+package testing;
+
+import javabean.JuegoElsa;
+
+public class TestingGround {
+
+	public static void main(String[] args) {
+		
+		//Crear la clase del Juego de Elsa.
+		JuegoElsa juego1, juego2;
+		
+		System.out.println("Vamos a jugar un juego.\n");
+		
+		juego1 = new JuegoElsa(6, 7);
+		
+		jugarJuego(juego1);
+		
+		juego2 = new JuegoElsa(0, 0);
+		jugarJuego(juego2);
+
+
+	}
+	public static void jugarJuego(JuegoElsa juegoParaJugar) {
+		System.out.println("Vamos a ver si eres ángel o demonio con los número que has metido.\n");
+		juegoParaJugar.sumaNumeros();
+		System.out.println("\nVamos a jugar otra.\n");
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Producto.java&apos; to &apos;A10_UF4_App_CatalogoProductosArray/src/javabean&apos;&#x0D;&#x0A;- Original project: &apos;JDGSN_Prueba_Practica&apos;&#x0D;&#x0A;- Destination element: &apos;A10_UF4_App_CatalogoProductosArray/src/javabean&apos;&#x0D;&#x0A;- Original element: &apos;javabean.Producto.java&apos;" description="Copy compilation unit" destination="=A10_UF4_App_CatalogoProductosArray/src&lt;javabean" element1="/src&lt;javabean{Producto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1734514337463" units="1" version="1.0"/>
+</session>

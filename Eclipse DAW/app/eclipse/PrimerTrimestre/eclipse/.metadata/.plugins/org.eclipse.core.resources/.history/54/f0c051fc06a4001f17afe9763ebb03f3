@@ -1,0 +1,129 @@
+package javabean;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Fiesta fiesta1 , fiesta2, fiesta3, fiesta4;
+		
+		fiesta1 = new Fiesta();
+		fiesta1.setInvitados(20);
+		fiesta1.setBedidas(20);
+		fiesta1.setBocadillos(20);
+		fiesta1.setDireccion("Calle Diego Ramirez Pastor 109, 03181 Torrevieja.");
+		fiesta1.setTipoFiesta("infantil");
+		fiesta1.setFecha("27/11/2024");
+		fiesta1.setHora("17:00");
+		
+		fiesta2 = new Fiesta();
+		fiesta2.setInvitados(10);
+		fiesta2.setBedidas(10);
+		fiesta2.setBocadillos(5);
+		fiesta2.setDireccion("Calle La Paz N.º77, 03182 Torrevieja.");
+		fiesta2.setTipoFiesta("cumpleaños");
+		fiesta2.setFecha("29/11/2024");
+		fiesta2.setHora("15:00");
+		
+		fiesta3 = new Fiesta("disfraces", "Avenida Robleda Nº177, 03184 Torrevieja.", 15, 30, 30, "1/12/2024", "20:00");
+		fiesta4 = new Fiesta("infantil", "Calle Rodrigo N.º 57, 03184 Torrevieja.", 50, 50, 15, "30/11/2024", "14:00");
+		
+		System.out.println("*******************INICIO FIESTAS*******************");
+		System.out.println("");
+		
+		System.out.println(fiesta1.toString());
+		System.out.println("");
+		fiesta1.mostrarFiesta();
+		System.out.println("");
+		fiesta1.invitar(6);
+		System.out.println("");
+		fiesta1.invitar();
+		System.out.println("");
+		fiesta1.cancelarInvitacion(6);
+		System.out.println("");
+		fiesta1.cancelarInvitacion();
+		System.out.println("");
+		fiesta1.cuantoBebida();
+		System.out.println("");
+		fiesta1.cuantoBocadillos();
+		System.out.println("");
+		fiesta1.precioPersona();
+		System.out.println("");
+		fiesta1.precioTotalFiesta();
+		
+		
+		System.out.println("");
+		System.out.println("*******************SIGUIENTE FIESTA******************");
+		System.out.println("");
+		
+		System.out.println(fiesta2.toString());
+		System.out.println("");
+		fiesta2.mostrarFiesta();
+		System.out.println("");
+		fiesta2.invitar(10);
+		System.out.println("");
+		fiesta2.invitar();
+		System.out.println("");
+		fiesta2.cancelarInvitacion();
+		System.out.println("");
+		fiesta2.cancelarInvitacion(5);
+		System.out.println("");
+		fiesta2.cuantoBebida();
+		System.out.println("");
+		fiesta2.cuantoBocadillos();
+		System.out.println("");
+		fiesta2.aumentarBebidas(5);
+		System.out.println("");
+		fiesta2.aumentarBocadillos(7);
+		System.out.println("");
+		fiesta2.cuantoBebida();
+		System.out.println("");
+		fiesta2.cuantoBocadillos();
+		System.out.println("");
+		fiesta2.reducirBebidas(2);
+		System.out.println("");
+		fiesta2.reducirBocadillos(5);
+		System.out.println("");
+		fiesta2.cuantoBebida();
+		System.out.println("");
+		fiesta2.cuantoBocadillos();
+		System.out.println("");
+		fiesta2.precioPersona();
+		System.out.println("");
+		fiesta2.precioTotalFiesta();
+		
+		System.out.println("");
+		System.out.println("*******************SIGUIENTE FIESTA******************");
+		System.out.println("");
+		
+		System.out.println(fiesta3.toString());
+		fiesta3.mostrarFiesta();
+		fiesta3.invitar(10);
+		fiesta3.invitar();
+		fiesta3.cancelarInvitacion(3);
+		fiesta3.cancelarInvitacion();
+		fiesta3.cuantoBebida();
+		fiesta3.cuantoBocadillos();
+		fiesta3.precioPersona();
+		fiesta3.precioTotalFiesta();
+		
+		System.out.println("");
+		System.out.println("*******************SIGUIENTE FIESTA******************");
+		System.out.println("");
+		
+		System.out.println(fiesta4.toString());
+		fiesta4.mostrarFiesta();
+		fiesta4.invitar(30);
+		fiesta4.invitar();
+		fiesta4.cancelarInvitacion(4);
+		fiesta4.cancelarInvitacion();
+		fiesta4.cuantoBebida();
+		fiesta4.cuantoBocadillos();
+		fiesta4.precioPersona();
+		fiesta4.precioTotalFiesta();
+		
+		
+		
+		
+
+	}
+
+}

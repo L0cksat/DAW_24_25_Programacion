@@ -1,0 +1,8 @@
+devstyle.manifest.check.timestamp=1736409424812
+eclipse.preferences.version=1
+manifest.devstyle.download.cache={"updates"\:{"release-version"\:"2024.4.0.202412101111","eclipse-version"\:"[4.5.0,5.0.0)","release-notes"\:{"id"\:"ci20241210","delivery-log-url"\:"https\:\\/\\/www.genuitec.com\\/products\\/devstyle\\/deliverylog\\/","release-label"\:"CI 2024.4.0","updates"\:[{"heading"\:"Fixes for the Latest Eclipse Versions","message"\:"Fixes a compatibility issue with Eclipse 2024-12 where menu items on Windows may appear invisible. If you observe anything else, please reach out\!","bullet"\:{"padding"\:"tiny","overlayicon"\:"ionicons\:ios-moon","color"\:"blue","overlayscale"\:"xlarge","icon"\:"fontawesome\:square","scale"\:"full","type"\:"overlayed","overlaycolor"\:"black","size"\:"32x32","position"\:"center"},"show-if"\:{"bundles"\:["com.genuitec.eclipse.theming.ui"]}}]},"eclipse-roots"\:[{"id"\:"com.genuitec.eclipse.theming.core.feature.feature.group","version"\:"2024.4.0.202412101111"},{"id"\:"com.genuitec.eclipse.theming.feature.feature.group","version"\:"2024.4.0.202412101111"},{"id"\:"com.genuitec.eclipse.theming.designer.feature.feature.group","version"\:"2024.4.0.202412101111"}],"binary-roots"\:[],"repository-url"\:"https\:\\/\\/edge.codetogether.com\\/downloads\\/products\\/devstyle\\/updates\\/ds20241210","check-interval"\:28800000,"notify-updated"\:14400000},"notifications"\:[],"notifications2"\:[]}
+manifest.devstyle.download.etag="67582596-4f2"
+manifest.devstyle.download.modified.date=Tue, 10 Dec 2024 11\:27\:18 GMT
+manifest.devstyle.download.url=https\://devstyle.codetogether.io/devstyle.json
+new-release-notes-ids=ci20240918,ci20241210
+webclipse.installed-release=2024.4.0.202412101111

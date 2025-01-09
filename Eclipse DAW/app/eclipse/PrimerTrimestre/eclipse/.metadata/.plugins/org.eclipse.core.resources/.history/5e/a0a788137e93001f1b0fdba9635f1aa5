@@ -1,0 +1,19 @@
+package algoritmos;
+
+public class Ejercicio02 {
+
+	public static void main(String[] args) {
+		//arrays llenos
+		
+		//int[] = {1,5,9,11,34,45};
+		
+		int numero = 2;
+		
+		if (numero %2 == 0)
+			System.out.println("Es par");
+		else
+			System.out.println("Es impar");
+
+	}
+
+}

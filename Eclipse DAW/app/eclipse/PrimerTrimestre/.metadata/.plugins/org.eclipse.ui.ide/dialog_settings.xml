@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\Repaso_Primera_A08_CuentasBancarias"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\JDGSN_Prueba_Practica"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\JDGSN_Practico_Primera_2324_Practice"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\JDGSN_Actividad2"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\JDGSN_Actividad1"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\Ejercicios_Practica_Nicky"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\Copia_Clase_Fiesta_+_Principal_Test"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\App_Prueba_Juego_De_Elsa"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A10_UF4_App_CatalogoProductosArray"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A09_UF4_Arrays"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A08_UF4_String_y_Arrays"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A07_UF05_Clases_basicas"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A06_Arrays"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A05-Repetitivas_Bucles"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A04_Alternativas"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A03_Laboratorio_daw_10_10_24"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A02_Tipos_de_datos"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\eclipse\A03_Laboratorio_daw_10_10_24"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\eclipse\A02_Tipos_de_datos"/>
+			<item value="F:\Eclipse DAW\app\eclipse\PrimerTrimestre\A01_PrimeroProyecto"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+		<section name="ExternalProjectImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="250"/>
+			<item key="DIALOG_Y_ORIGIN" value="45"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="713"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

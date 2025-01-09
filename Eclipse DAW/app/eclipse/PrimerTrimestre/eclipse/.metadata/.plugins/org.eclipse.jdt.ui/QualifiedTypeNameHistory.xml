@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javabean.Fuerza"/>
+    <fullyQualifiedTypeName name="javabean.Empleado"/>
+    <fullyQualifiedTypeName name="javabean.Fiesta"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javabean.Cuenta"/>
+    <fullyQualifiedTypeName name="javabean.JuegoElsa"/>
+    <fullyQualifiedTypeName name="javabean.Fiesta_Copy"/>
+    <fullyQualifiedTypeName name="modelo.CatalogoProductosConArrayList"/>
+    <fullyQualifiedTypeName name="javabean.Producto"/>
+    <fullyQualifiedTypeName name="modelo.TrabajoRepositorio"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javabean.Trabajo"/>
+</qualifiedTypeNameHistroy>
