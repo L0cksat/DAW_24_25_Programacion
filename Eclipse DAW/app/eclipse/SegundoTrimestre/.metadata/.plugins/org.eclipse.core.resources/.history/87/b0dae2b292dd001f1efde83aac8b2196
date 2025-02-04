@@ -1,0 +1,33 @@
+package javabean;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import negocio.IFiguras;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+
+public class Cuadrado implements IFiguras{
+	
+	private double lado;
+
+	@Override
+	public double area() {
+		return lado * lado;
+	}
+
+	@Override
+	public double perimetro() {
+		return lado * 4;
+	}
+
+	@Override
+	public double volumen() {
+		return lado + lado;
+	}
+	
+	
+
+}

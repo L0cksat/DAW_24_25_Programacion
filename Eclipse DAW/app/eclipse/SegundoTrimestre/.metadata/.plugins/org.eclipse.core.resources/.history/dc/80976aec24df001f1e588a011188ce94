@@ -1,0 +1,15 @@
+package aplicaciones;
+
+public class MenuOpciones {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+	public static int pintarmenu() {
+		System.out.println("1.- Todos");
+		System.out.println("1.- Todos");
+		System.out.println("1.- Todos");
+	}
+}

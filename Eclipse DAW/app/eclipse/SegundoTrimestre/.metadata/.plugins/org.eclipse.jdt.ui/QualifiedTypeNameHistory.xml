@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javabean.Automovil"/>
+    <fullyQualifiedTypeName name="javabean.Planeta.tipoPlaneta"/>
+    <fullyQualifiedTypeName name="javabean.Planeta"/>
+    <fullyQualifiedTypeName name="javabean.Region"/>
+    <fullyQualifiedTypeName name="javabean.Country"/>
+    <fullyQualifiedTypeName name="javabean.Location"/>
+    <fullyQualifiedTypeName name="javabean.Job"/>
+    <fullyQualifiedTypeName name="javabean.Department"/>
+    <fullyQualifiedTypeName name="javabean.Employee"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="javabean.Pais"/>
+    <fullyQualifiedTypeName name="javabean.Banco"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="javabean.Pedido"/>
+    <fullyQualifiedTypeName name="javabean.Factura"/>
+    <fullyQualifiedTypeName name="javabean.Cliente"/>
+    <fullyQualifiedTypeName name="javabean.TarjetaBancaria"/>
+    <fullyQualifiedTypeName name="javabean.Cliente2"/>
+    <fullyQualifiedTypeName name="javabean.DireccionCliente"/>
+    <fullyQualifiedTypeName name="javabean.Gato"/>
+    <fullyQualifiedTypeName name="javabean.Perro"/>
+    <fullyQualifiedTypeName name="negocio.IFiguras"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="negocio.AgendaContactosImpl"/>
+    <fullyQualifiedTypeName name="negocio.IAgendaContacto"/>
+</qualifiedTypeNameHistroy>

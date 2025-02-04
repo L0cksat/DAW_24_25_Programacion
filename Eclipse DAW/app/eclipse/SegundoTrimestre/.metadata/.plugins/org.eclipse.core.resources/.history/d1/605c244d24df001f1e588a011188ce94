@@ -1,0 +1,10 @@
+package aplicaciones;
+
+public class MenuOpciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

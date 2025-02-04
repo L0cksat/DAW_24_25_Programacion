@@ -1,0 +1,42 @@
+package testing;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
+public class TrabajarConColecciones {
+
+	public static void main(String[] args) {
+		List<String> nombres, palabras;
+		
+		nombres = new ArrayList<String>();
+		
+		//nombres = List.of("tomas", "andres", "eva", "sara", "carlos", "tomas");
+		nombres.add("tomas");
+		nombres.add("esteban");
+		nombres.add("eva");
+		nombres.add("sebastian");
+		nombres.add("tomas");
+		
+		System.out.println("DE LIST");
+		for (String nombre : nombres) {
+			System.out.println(nombre);
+		}
+		
+		palabras = new LinkedList<String>();
+		
+		Set<String> otrosNombres = new HashSet<String>();
+		
+		otrosNombres.add("tomas");
+		otrosNombres.add("eva");
+		otrosNombres.add("antonio");
+		otrosNombres.add("tomas");
+		System.out.println("DE SET");
+		for (String nombre : otrosNombres) {
+			System.out.println(nombre);
+		}
+	}
+
+}

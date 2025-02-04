@@ -10,11 +10,14 @@ public class TestCountry {
 		Country esp = new Country("SP", "España", region1);
 		
 		Country arg = new Country("AR", "Argentina", new Region(2, "Sur América"));
+		
+		Country colombia = new Country("CO", "Colombia", arg.getRegion());
 		Region region2 = arg.getRegion();
 		
 		System.out.println(region1);
 		System.out.println(esp);
 		System.out.println(arg);
+		System.out.println(colombia);
 		System.out.println(region2);
 		
 		

@@ -1,0 +1,22 @@
+package testing;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TrabajarConColecciones {
+
+	public static void main(String[] args) {
+		List<String> nombres, palabras;
+		
+		nombres = new ArrayList<String>();
+		
+		nombres = List.of("tomas", "andres", "eva", "sara", "carlos", "tomas");
+				
+		for (String nombre : nombres) {
+			System.out.println(nombre);
+		}
+		
+		System.out.println(nombres.contains("sara"));
+	}
+
+}

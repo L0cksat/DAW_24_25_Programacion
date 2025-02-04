@@ -1,0 +1,23 @@
+package negocio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javabean.Contacto;
+
+public class AgendaContactosImpl {
+	private List<Contacto> lista;
+	
+	public AgendaContactosImpl() {
+		lista = new ArrayList<Contacto>();
+		cargarDatos();
+	}
+	
+	
+	private void cargarDatos() {
+		lista.add(new Contacto("Eva", "678678678"));
+		lista.add(new Contacto("Carlos", "679678178"));
+		lista.add(new Contacto("Sara", "618578278"));
+	}
+	
+}

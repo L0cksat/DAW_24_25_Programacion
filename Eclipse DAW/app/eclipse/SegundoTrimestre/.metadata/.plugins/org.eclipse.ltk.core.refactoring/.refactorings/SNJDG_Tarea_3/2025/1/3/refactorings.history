@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;javabean.DirrecionCliente&apos; to &apos;DireccionCliente&apos;&#x0D;&#x0A;- Original project: &apos;SNJDG_Tarea_3&apos;&#x0D;&#x0A;- Original element: &apos;javabean.DirrecionCliente&apos;&#x0D;&#x0A;- Renamed element: &apos;javabean.DireccionCliente&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DirrecionCliente&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;javabean{DirrecionCliente.java[DirrecionCliente" matchStrategy="1" name="DireccionCliente" qualified="false" references="true" similarDeclarations="false" stamp="1737299255560" textual="false" version="1.0"/>
+</session>

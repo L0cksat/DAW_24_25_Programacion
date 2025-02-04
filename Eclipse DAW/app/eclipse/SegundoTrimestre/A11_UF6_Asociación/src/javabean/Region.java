@@ -1,11 +1,14 @@
 package javabean;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Region {
 
 	private int regionId;
 	private String regionName;
+	
+	private ArrayList<Country> countries;
 	
 	
 	
@@ -15,6 +18,13 @@ public class Region {
 		this.regionName = regionName;
 	}
 
+
+	public Region(int regionId, String regionName, ArrayList<Country> countries) {
+		super();
+		this.regionId = regionId;
+		this.regionName = regionName;
+		this.countries = countries;
+	}
 
 
 	public Region() {
@@ -45,6 +55,15 @@ public class Region {
 		this.regionName = regionName;
 	}
 
+	
+	public ArrayList<Country> getCountries() {
+		return countries;
+	}
+
+
+	public void setCountries(ArrayList<Country> countries) {
+		this.countries = countries;
+	}
 
 
 	@Override
@@ -65,12 +84,22 @@ public class Region {
 	}
 
 
-
 	@Override
 	public String toString() {
-		return "Region [regionId=" + regionId + ", regionName=" + regionName + "]";
+		return "Region [regionId=" + regionId + ", regionName=" + regionName + ", countries=" + countries + "]";
+	}
+
+	
+	public boolean addCountry(Country country) {
+		if (countries == null)
+			countries = new ArrayList<Country>();
+		return countries.add(country);
 	}
 	
-	
+	public boolean removeCountry(Country country) {
+		if (countries == null)
+			countries = new ArrayList<Country>();
+		return countries.remove(country);
+	}
 	
 }

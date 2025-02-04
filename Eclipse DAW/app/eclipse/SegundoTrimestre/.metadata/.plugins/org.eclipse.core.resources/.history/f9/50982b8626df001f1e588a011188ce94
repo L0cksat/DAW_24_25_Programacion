@@ -1,0 +1,53 @@
+package aplicaciones;
+
+import java.util.Scanner;
+
+public class MenuOpciones {
+	private static Scanner leer = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int opcion = 0;
+		
+		do {
+			
+			opcion = pintarMenu();
+			switch(opcion) {
+			case 1: 
+				System.out.println("Opción 1...");
+				//procesarTodos();
+				break;
+			case 2: 
+				System.out.println("Opción 2...");
+				//procesarUno();
+				break;
+			case 3:
+				System.out.println("Opción 3...");
+				//procesarAlta();
+				break;
+			}
+			
+		}while (opcion !=4);
+		System.out.println("FIN DE LA APLICACIÓN.");
+		
+		leer.close();
+	}
+
+	public static int pintarMenu() {
+		int opcion = 0;
+		System.out.println("1.- Todos");
+		System.out.println("2.- Uno");
+		System.out.println("3.- Alta");
+		System.out.println("4.- Salir");
+		
+		System.out.println("\nTeclea una opcion, 4 para salir.");
+		opcion = leer.nextInt();
+		
+		while (opcion < 1 || opcion > 4) {
+			System.out.println("Opcion incorrecta, validos del 1 al 4");
+			opcion = leer.nextInt();
+		}
+		
+		return opcion;
+		
+	}
+}

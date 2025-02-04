@@ -1,0 +1,9 @@
+package javabean;
+
+public class Cuadrado {
+	
+	private double lado;
+	
+	
+
+}
