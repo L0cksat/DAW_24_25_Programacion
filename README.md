@@ -10,6 +10,8 @@ Hola! Bienvenido al README de este repo, es más bien para comentar unas cosas a
 4. Cuarto, he conseguido borrar la carpeta mencionada anteriormente y he actualizado el repo con los nuevo proyectos
 de la clase de programación del **08-01-2025**.
 5. Qunito, he subido la carpeta con todos los proyectos del ***primer trimestre***.
+6. Sexto, he hecho una **mega subida** de todo lo faltante del PrimerTrimestre y lo que hemos hecho hasta el día de hoy
+(04/02/2025) en clase de Programación.
 
 ***CONTINUARÁ***
 
