@@ -1,0 +1,28 @@
+package negocio;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import javabean.Employee;
+
+public class EmployeeDaoImplList {
+
+	private List<Employee> lista;
+	private IDepartmentDao iDepartmentDao;
+	private IJobDao iJobDao;
+	
+	public EmployeeDaoImplList() {
+		lista = new ArrayList<Employee>();
+		iDepartmentDao = new DepartmentDaoImplList();
+		iJobDao = new JobDaoImplList();
+		
+		cargarDatos();
+	
+	}
+	
+	private void cargarDatos() {
+		lista.add(new Employee(114, "Estaban", "Raphaelly", "est@fp.com", "678678678", LocalDate.of(1996, 7, 7), 
+				iJobDao.findById("IT_PROG"), 35_000, 0.2, null, iDepartmentDao.findById(30)));
+	}
+}

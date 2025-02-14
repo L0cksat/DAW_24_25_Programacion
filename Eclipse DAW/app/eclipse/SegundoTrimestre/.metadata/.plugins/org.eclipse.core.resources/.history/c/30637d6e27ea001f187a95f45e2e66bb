@@ -1,0 +1,26 @@
+package negocio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javabean.Department;
+
+public class DepartmentDaoImplLista {
+
+	private List<Department> lista;
+	private ILocationDao iLocationDao;
+	
+	
+	
+	public DepartmentDaoImplLista() {
+		lista = new ArrayList<Department>();
+		iLocationDao = new LocationDaoImplLista();
+		cargarDatos();
+		
+	}
+	private void cargarDatos() {
+		lista.add(new Department(20, "Ventas", null, iLocationDao.findById(1500)));
+		lista.add(new Department(20, "Ventas", null, iLocationDao.findById(1600)));
+		lista.add(new Department(10, "Informatica", null, iLocationDao.findById(1700)));
+	}
+}

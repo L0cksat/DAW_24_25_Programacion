@@ -1,0 +1,13 @@
+package testingdao;
+
+import java.util.List;
+
+import javabean.Location;
+import negocio.ILocationDao;
+
+public class TestLocationDao {
+
+	public static void main(String[] args) {
+		
+
+}

@@ -1,0 +1,13 @@
+package testingdao;
+
+import negocio.JobDaoImplLista;
+
+public class TestJobDao {
+
+	public static void main(String[] args) {
+		IJobDao iJobDao = new JobDaoImplLista();
+		
+
+	}
+
+}

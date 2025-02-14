@@ -1,0 +1,24 @@
+package negocio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javabean.Location;
+
+public class LocationDaoImplLista {
+
+	private List<Location> lista;
+	
+	private ICountryDao iCountryDao;
+	
+	public LocationDaoImplLista() {
+		lista = new ArrayList<Location>();
+		iCountryDao = new CountryDaoImplList();
+		cargarDatos();
+	}
+	private void cargarDatos() {
+		lista.add(new Location(1500, "Pez nº3", "28008", "Madrid", "Madrid", iCountryDao.findById("ES")));
+		lista.add(new Location(1600, "Nuez nº3", "28016", "Madrid", "Madrid", iCountryDao.findById("ES")));
+		lista.add(new Location(1700, "Rosa nº34", "19002", "Guadlajara", "Guadlajara", iCountryDao.findById("ES")));
+	}
+}

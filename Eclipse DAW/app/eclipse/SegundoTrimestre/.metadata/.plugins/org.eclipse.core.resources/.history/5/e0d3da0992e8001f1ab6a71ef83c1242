@@ -1,0 +1,42 @@
+package testingdao;
+
+import javabean.Country;
+import negocio.CountryDaoImplList;
+import negocio.ICountryDao;
+
+public class TestCountryDao {
+
+	public static void main(String[] args) {
+		ICountryDao iCountryDao = new CountryDaoImplList();
+		
+		int cont = 0;
+		
+		System.out.println("\nLISTADO DE FINDALL\n");
+		
+		for(Country country: iCountryDao.findAll())
+			System.out.println(country);
+		
+System.out.println("\nLISTADO DE EMPIEZAN EN\n");
+		
+		for(Country country: iCountryDao.buscarPorEmpiezaEnName("A")) {
+			System.out.println(country);
+			cont++;
+		}
+			if(cont == 0)
+				System.out.println("No hay paises para esta seleccion.");
+			
+			System.out.println("\nLISTADO POR UNA REGION\n");
+			cont =0;
+			for(Country country: iCountryDao.buscarPorRegion(1)) {
+				System.out.println(country);
+				cont++;
+			}
+				if(cont == 0)
+					System.out.println("No hay paises para esta seleccion.");
+
+		}
+	}
+	
+	
+
+}

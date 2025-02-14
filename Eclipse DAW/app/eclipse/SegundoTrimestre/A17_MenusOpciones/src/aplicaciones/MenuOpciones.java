@@ -13,6 +13,8 @@ public class MenuOpciones {
 	public static void main(String[] args) {
 		int opcion = 0;
 		
+		
+		//controlador del menu
 		do {
 			
 			opcion = pintarMenu();

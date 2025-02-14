@@ -1,0 +1,17 @@
+package testingdao;
+
+import javabean.Department;
+import negocio.DepartmentDaoImplLista;
+import negocio.IDepartmentDao;
+
+public class TestDepartmentDao {
+
+	public static void main(String[] args) {
+		IDepartmentDao iDepartmentDao = new DepartmentDaoImplLista();
+		
+		for (Department ele: iDepartmentDao.findAll())
+			System.out.println(ele);
+
+	}
+
+}

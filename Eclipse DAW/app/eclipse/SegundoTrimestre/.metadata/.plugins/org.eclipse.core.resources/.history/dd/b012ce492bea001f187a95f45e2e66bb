@@ -1,0 +1,21 @@
+package negocio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javabean.Job;
+
+public class JobDaoImplList {
+	private List<Job> lista;
+	
+	public JobDaoImplList() {
+		lista = new ArrayList<Job>();
+		cargarDatos();
+	}
+	
+	private void cargarDatos() {
+		lista.add(new Job("IT_Prog", "Programador",20000, 30000));
+		lista.add(new Job("Jf_PROY", "Jefe",30000, 40000));
+		lista.add(new Job("IT_Prog", "Programador",20000, 30000));
+	}
+}

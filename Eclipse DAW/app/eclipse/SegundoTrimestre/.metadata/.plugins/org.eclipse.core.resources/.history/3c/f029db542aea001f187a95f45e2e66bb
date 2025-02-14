@@ -1,0 +1,19 @@
+package negocio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javabean.Employee;
+
+public class IEmployeeDaoImplLista {
+
+	private List<Employee> lista;
+	private IDepartmentDao iDepartmentDao;
+	private IJobDao iJobDao;
+	
+	public IEmployeeDaoImplLista() {
+		lista = new ArrayList<Employee>();
+		iDepartmentDao = new DepartmentDaoImplList();
+		iJobDao = new JobDaoImplList();
+	}
+}
